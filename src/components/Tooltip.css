@@ -1,0 +1,25 @@
+ .tooltip-wrapper { 
+
+ position: relative; 
+ display: inline-block; 
+ }
+
+ .tooltip-content { 
+ position: absolute; 
+ top: 125%; 
+ left: 50%; 
+ transform: translateX(-50%); 
+ background: #333; 
+ color: white; 
+ padding: 8px 12px; 
+ border-radius: 4px; 
+ white-space: nowrap; 
+ opacity: 0; 
+ pointer-events: none; 
+ transition: opacity 0.2s; 
+ } 
+
+ .tooltip-wrapper:hover .tooltip-content { 
+ opacity: 1; 
+
+ } 
