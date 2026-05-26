@@ -1,0 +1,6 @@
+1.Props.chlidren to sposób w którym react pozwala nam pisać kod html i z automatu zbiera co przekazywane jest jako props.children, można w nich przekazac tekst, element HTML,
+mieszane treści + tekst, HTML
+
+2.Wyrenderowane zostaną 2 panele jeden z tytylem statystyki z paragrafem wytlusczonym a drugi panel ma tytul powiadomienia z kontenetem liniowym w srodku,
+Pierwiszy panel będzie miał klase panel-accent a drugi nie będzie miał klasy,
+Children w 1 przypadku to paragraf z wytlusczonym tekstem a w 2 przypadku jest to kontener liniowy <span>
